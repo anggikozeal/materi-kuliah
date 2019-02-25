@@ -10,6 +10,11 @@ class Admin extends CI_Controller {
     
     public function index()
 	{
-		$this->load->view('admin/overview');
+		$this->load->view('admin/v_login');
+    }
+    
+    public function home()
+	{
+		$this->load->view('admin/v_home');
 	}
 }
